@@ -7,7 +7,7 @@ const path = require('path');
 const app = express();
 
 // Serve only the static files form the dist directory
-app.use(express.static(__dirname + './docs/portal'));
+app.use(express.static(__dirname + '/docs/'));
 
 app.get('/*', function(req,res) {
 
