@@ -1,0 +1,30 @@
+
+.container {
+
+  height: calc(100vh - 5rem);
+  .card { border: none; }
+
+  .card-container {
+    //width: 216px;
+    height: 284px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 2px solid rgba(150,150,150,0.08);
+    background: linear-gradient(180deg, #FFFFFF 0%, #EBEBEB 100%);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12);
+  }
+
+  a.card-action {
+    font-weight: bold !important;
+  }
+
+
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+
+

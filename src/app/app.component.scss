@@ -1,0 +1,45 @@
+
+
+header {
+  .mtn-ribbon {
+    height: 8px; background: #000; display: block;
+    .mtn-yellow-strip {
+      height: 8px;
+      background: #ffcc00;
+      width: 20%;
+      display: block;
+    }
+  }
+
+  nav.navbar {
+    height: 80px;
+    box-shadow: 2px 2px 8px 0 rgb(45 35 35 / 20%);
+
+    a.nav-link { color: #232323 !important; font-family: "Work Sans", sans-serif; }
+
+    .mtn-yellow-logo {
+      width: 88px;
+      height: 88px;
+      border: #fff 2px solid;
+      position: relative;
+      top: 20px;
+      padding: 2px;
+      box-shadow: 2px 2px 8px 0 rgba(45,35,35,.2);
+      img { width: 100%;}
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-collapse.collapse.show {
+    margin-top:3%;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+}
+
